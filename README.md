@@ -57,7 +57,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: Bairav Skandan Loha
 RegisterNumber:  212221230010
 */
-down counter:
+DOWN COUNTER:
 module sk(input clk,input reset,output[3:0]counter);
 reg[3:0]counter_down;
 always@(posedge clk or posedge reset)
@@ -68,6 +68,19 @@ else
 counter_down<=counter_down-4'd1;
 end
 assign counter = counter_down;
+endmodule 
+
+UP COUNTER
+module sk(input clk,input reset,output[3:0]counter);
+reg[3:0]counter_up;
+always@(posedge clk or posedge reset)
+begin
+if(reset)
+counter_up<=4'd0;
+else
+counter_up<=counter_up+4'd1;
+end
+assign counter = counter_up;
 endmodule 
 ~~~
 
@@ -81,6 +94,9 @@ endmodule
 DOWN COUNTER
 ![](d1.png)
 
+UP COUNTER
+![](di1.png)
+
 
 
 
@@ -93,6 +109,9 @@ DOWN COUNTER
 
 DOWN COUNTER
 ![](d3.png)
+UP COUNTER:
+![](di22)
+
 
 
 
