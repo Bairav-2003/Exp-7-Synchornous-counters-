@@ -78,6 +78,7 @@ endmodule
 
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+DOWN COUNTER
 ![](d1.png)
 
 
@@ -90,7 +91,8 @@ endmodule
 
 ### TIMING DIGRAMS FOR COUNTER  
 
-![](d2.png)
+DOWN COUNTER
+![](d3.png)
 
 
 
