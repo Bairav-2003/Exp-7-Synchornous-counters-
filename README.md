@@ -110,7 +110,7 @@ UP COUNTER
 DOWN COUNTER
 ![](d3.png)
 UP COUNTER:
-![](di22)
+![](di22.png)
 
 
 
